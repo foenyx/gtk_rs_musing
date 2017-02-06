@@ -1,0 +1,19 @@
+[package]
+name = "gtk_rs_musing"
+version = "0.1.0"
+authors = ["Nicolas"]
+
+[dependencies]
+cairo-rs = "^0"
+glib = "^0"
+gdk = "^0"
+gdk-sys = "^0"
+gdk-pixbuf = "^0"
+
+[dependencies.gtk]
+version = "0.1.1"
+features = ["v3_16"]
+
+[[bin]]
+name = "pixbuf_iconview"
+path = "src/pixbuf_iconview.rs"
